@@ -1,4 +1,4 @@
-# docker-dokuwiki Release 2018-04-22a "Greebo"
+# docker-dokuwiki Release 2018-04-22 "Greebo"
 
 A doker image providing dokuwiki with focus of backup in the container,  
 
@@ -15,7 +15,7 @@ with some improvements:
   * Adding timezone support \
     Change the ENV TIMEZONE=Europe/Vienna in the Dockerfile to your needs
   * Adding ntpd support via supervisor
-  * Upgrade to the latest (Bugfix) Release 2018-04-22a “Greebo”
+  * Upgrade to the Release 2018-04-22 “Greebo” not to 2018-04-22a because aof instability with the CLOUD plugin
   * Upgrade Alpine Linux to latest stable version v3.7
   * (NEW) php upload limit set to 64MB \
     Change the value to your needs in the file upload.ini
